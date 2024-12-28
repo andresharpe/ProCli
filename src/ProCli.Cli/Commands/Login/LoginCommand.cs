@@ -13,7 +13,7 @@ public sealed class LoginCommand(IConsoleWriter console, IPersistedSecretCache t
     private readonly IPersistedSecretCache _tokenCache = tokenCache;
     private readonly AppSettings _appSettings = appSettings;
 
-    public class Settings : LoggedInSettings
+    public class Settings : CommandSettings
     {
         [CommandOption("-u|--username <USERNAME>")]
         [Description("Your user name.")]
