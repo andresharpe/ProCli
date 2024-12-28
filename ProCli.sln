@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B347D8B-8287-4181-A41E-AF7172DDB685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCli.Cli", "src\ProCli.Cli\ProCli.Cli.csproj", "{5D87A387-E07D-489A-A30B-3E4E473EC1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProCli.Lib", "src\ProCli.Lib\ProCli.Lib.csproj", "{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D87A387-E07D-489A-A30B-3E4E473EC1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D87A387-E07D-489A-A30B-3E4E473EC1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D87A387-E07D-489A-A30B-3E4E473EC1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D87A387-E07D-489A-A30B-3E4E473EC1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D87A387-E07D-489A-A30B-3E4E473EC1E6} = {7B347D8B-8287-4181-A41E-AF7172DDB685}
+		{CF100A54-A3CC-4D74-BFF0-4897AC8D1AFA} = {7B347D8B-8287-4181-A41E-AF7172DDB685}
+	EndGlobalSection
+EndGlobal
